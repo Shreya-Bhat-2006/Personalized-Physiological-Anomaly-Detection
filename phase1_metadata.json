@@ -1,0 +1,27 @@
+{
+  "dataset_rows": 132,
+  "features": 13,
+  "feature_names": [
+    "HR_Zscore",
+    "Sleep_Zscore",
+    "Steps_Zscore",
+    "Deep_Sleep",
+    "Calories",
+    "Moderate_Activity",
+    "Vigorous_Activity",
+    "Fluid_Intake",
+    "Stress",
+    "Fatigue",
+    "Mood",
+    "Readiness",
+    "Restlessness"
+  ],
+  "dbscan_eps": 3.5,
+  "dbscan_min_samples": 5,
+  "lof_neighbors": 20,
+  "lof_contamination": 0.05,
+  "lof_novelty": true,
+  "if_estimators": 100,
+  "if_contamination": 0.05,
+  "if_random_state": 42
+}
